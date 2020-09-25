@@ -31,13 +31,13 @@ public class EmpWageBuilderProject {
 	System.out.println("Day : " + totalWorkingDays + "empHrs : " + empHrs);
 	}
 	totalEmpWage = totalEmpHrs * empRatePerHour;
-	System.out.println("Total Emp Wage: " + totalEmpWage);
+	System.out.println("Total Emp Wage for Company: " +company+" is: "+ totalEmpWage);
 	return totalEmpWage;
 	}
 	
 	public static void main(String[] args) {
-    computeEmpWage("Reliance", 15, 25 , 100);
-    computeEmpWage("BigBazar", 20, 27 , 90);
+     computeEmpWage("Reliance", 15, 25 , 100);
+     computeEmpWage("BigBazar", 20, 27 , 90);
 	}
 }
 
